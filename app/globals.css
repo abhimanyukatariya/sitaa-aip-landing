@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global base styling */
+html {
+  scroll-behavior: smooth;
+  /* Back closer to normal, but still a bit larger than default */
+  font-size: 16px;
+  background-color: #020617; /* slate-950 */
+}
+
+@media (min-width: 1536px) {
+  html {
+    font-size: 16px; /* keep consistent on very large screens */
+  }
+}
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased;
+  margin: 0;
+}
+
+/* Wider container, but not too wide */
+.wide-container {
+  max-width: 1440px;
+}
+
+/* Optional: nicer focus outline */
+:focus-visible {
+  outline: 2px solid rgba(249, 115, 22, 0.8); /* orange-500 */
+  outline-offset: 2px;
+}
+/* Upgrade paragraph and general text size */
+p,
+ul li,
+.text-body {
+  font-size: 15px !important;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  p,
+  ul li,
+  .text-body {
+    font-size: 16px !important;
+  }
+}

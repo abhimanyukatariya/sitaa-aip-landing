@@ -59,7 +59,7 @@ export default function HomePage() {
       Scheme for Innovation and Technology Association with Aadhaar
     </span>
     <span className="text-xs md:text-sm font-medium text-slate-50/90">
-      Call for Academic Incubators · Pilot Module
+      Call for AIPs · Pilot Module
     </span>
   </div>
 </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
       <div className="sticky top-[3.3rem] z-20 border-y border-slate-800 bg-slate-950/95 px-4 py-2 lg:hidden">
         <div className="wide-container mx-auto flex items-center justify-between gap-3">
           <span className="text-[11px] font-medium text-slate-200">
-            Call for Academic Incubators · Pilot Module
+            Call for AIPs · Pilot Module
           </span>
           <a
             href={FORM_LINK}
@@ -131,7 +131,7 @@ export default function HomePage() {
               <div className="space-y-2.5 max-w-3xl">
                 <div className="inline-flex items-center gap-2 rounded-full border border-orange-400/50 bg-slate-900/80 px-4 py-1.5 text-[11px] font-medium text-orange-100 shadow-sm shadow-orange-500/40">
                   <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                  Call for Applications · Academic Incubators (AIPs)
+                  Call for Applications · Accelerator / Incubator Partners (AIPs)
                 </div>
                 <h1 className="text-2xl md:text-3xl lg:text-[30px] font-semibold leading-snug tracking-tight">
                   Partner with{" "}
@@ -141,9 +141,7 @@ export default function HomePage() {
                   to drive innovation in digital identity.
                 </h1>
                 <p className="text-sm md:text-[15px] leading-relaxed text-slate-200/90">
-                  SITAA invites leading academic incubators to join as Accelerator /
-                  Incubator Partners (AIPs) and nurture startups building the next
-                  generation of Aadhaar-enabled digital identity solutions.
+                  SITAA invites leading Incubators and Accelerator partners (AIPs) to collaborate in nurturing the next generation of Aadhaar-enabled digital identity solutions.
                 </p>
               </div>
 
@@ -338,7 +336,7 @@ export default function HomePage() {
         {/* SELECTION CRITERIA */}
         <section id="criteria" className="scroll-mt-24">
           <h2 className="text-xl lg:text-2xl font-semibold tracking-tight text-slate-50">
-            AIP Selection Criteria
+            AIPs Selection Criteria
           </h2>
           <p className="mt-1 text-xs lg:text-sm text-slate-300/90">
             As per the indicative selection framework in the concept note.
@@ -500,9 +498,9 @@ export default function HomePage() {
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div>
                 <h2 className="text-xl lg:text-2xl font-semibold tracking-tight text-slate-50">
-                  How to Apply as an Academic Incubator (AIP)
+                  How to Apply
                 </h2>
-                <p className="mt-1 text-xs lg:text-sm text-slate-200/90">
+                <p className="mt-2 text-xs lg:text-sm text-slate-200/90">
                   Please review the detailed concept note before submitting your
                   application.
                 </p>
